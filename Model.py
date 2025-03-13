@@ -16,7 +16,7 @@ transform = transforms.Compose([
 ])
 
 # Step 2: Load the dataset
-dataset_path = "/home/sundar/Rice-Classification/Rice_Image_Dataset"  # Update this path
+dataset_path = "Path-to-image-rice-data-sheet"  # Update this path
 print("Loading dataset from:", dataset_path)
 dataset = datasets.ImageFolder(root=dataset_path, transform=transform)
 print("Class names:", dataset.classes)
